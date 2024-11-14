@@ -52,12 +52,19 @@ Después de configurar Docker, sigue estos pasos:
    docker build -t my-fastapi-app .
    ```
 
-2. **Ejecutar el contenedor Docker**:
+   Si está teniendo problemas con el LinuxEngine, inicie una consola de PowerShell como administrador y ejecute los siguientes comandos:
+  ```bash
+   cd "C:\Program Files\Docker\Docker"
+
+  ./DockerCli.exe -SwitchLinuxEngine
+  ```
+
+3. **Ejecutar el contenedor Docker**:
    ```bash
    docker run -d -p 8000:8000 my-fastapi-app
    ```
 
-3. **Probar la API en Docker**:
+4. **Probar la API en Docker**:
    Puedes probar la API enviando una solicitud a `http://localhost:8000` después de iniciar el contenedor.
 
    A continuación, un script de Python de ejemplo (`test_request.py`) para probar el endpoint `/predict`:
