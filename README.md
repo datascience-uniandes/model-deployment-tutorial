@@ -53,11 +53,12 @@ Después de configurar Docker, sigue estos pasos:
    ```
 
    Si está teniendo problemas con el LinuxEngine, inicie una consola de PowerShell como administrador y ejecute los siguientes comandos:
-  ```bash
-   cd "C:\Program Files\Docker\Docker"
-
-  ./DockerCli.exe -SwitchLinuxEngine
-  ```
+  
+    ```bash
+     cd "C:\Program Files\Docker\Docker"
+  
+    ./DockerCli.exe -SwitchLinuxEngine
+    ```
 
 3. **Ejecutar el contenedor Docker**:
    ```bash
