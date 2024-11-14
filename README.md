@@ -52,7 +52,7 @@ Después de configurar Docker, sigue estos pasos:
    docker build -t my-fastapi-app .
    ```
 
-   Si está teniendo problemas con el LinuxEngine, inicie una consola de PowerShell como administrador y ejecute los siguientes comandos:
+   Si está teniendo problemas con el LinuxEngine en Windows, inicie una consola de PowerShell como administrador y ejecute los siguientes comandos (modifique la dirección de instalación de Docker según sea su caso):
   
     ```bash
      cd "C:\Program Files\Docker\Docker"
